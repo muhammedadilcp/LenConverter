@@ -10,7 +10,14 @@ int main(){
 		cout<<"Enter choice: ";
 		cin>>i;
 		switch(i){
-			
+				case 2:
+				cout<<"Enter length in meters";
+				cin>>length;
+				
+				result=rlength*100;
+				
+				cout<<"Length in centimeters:"<<result<<endl;
+				break;
 		}
 	}
 	return 0;
