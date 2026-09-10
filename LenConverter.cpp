@@ -13,7 +13,7 @@ int main(){
 			case 5:
 				cout<<"Enter the length: ";
 				result=length*39.37;
-				cout<<"Enter the length: "<<result;
+				cout<<"Result: "<<result;
 				break;
 		}
 	}
