@@ -9,7 +9,9 @@ int main(){
 		cout<<"================================\n";
 		cout<<"Enter choice: ";
 		cin>>i;
-	
+		switch(i){
+			
+		}
 	}
 	return 0;
 }
