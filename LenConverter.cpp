@@ -10,7 +10,11 @@ int main(){
 		cout<<"Enter choice: ";
 		cin>>i;
 		switch(i){
-			
+			case 5:
+				cout<<"Enter the length: ";
+				result=length*39.37;
+				cout<<"Enter the length: "<<result;
+				break;
 		}
 	}
 	return 0;
