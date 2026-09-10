@@ -9,18 +9,27 @@ int main(){
 		cout<<"================================\n";
 		cout<<"Enter choice: ";
 		cin>>i;
+		double len;
+		double res;
 		switch(i){
+			case 1 :
 			
-								case 3:
-					
-					cout<<"give the value to be converted: "<<endl;
-					cin>>meter;
-					
-					millimeters = meter * 1000;
-					cout<<"final answer after converting to millimeters = "<<millimeters;
+			        cout<<"\nEnter the value:\n";
+					cin>>len;
+					res = len/1000.0;
+					cout<<"The converted value is:"<<res;
 					break;
 			
+			case 2:
+				cout<<"Enter length in meters";
+				cin>>length;
+				
+				result=rlength*100;
+				
+				cout<<"Length in centimeters:"<<result<<endl;
+				break;
 		}
 	}
+
 	return 0;
 }
