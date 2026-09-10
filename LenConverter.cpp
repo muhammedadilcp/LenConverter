@@ -3,7 +3,7 @@ using namespace std;
 int main(){
 	int i=1,inp;
 	float km,foot;
-	while (true){
+	while (i!=6){
 		cout<<"\n================================\n";
 		cout<<"1. Meters to Kilometers\n2. Meters to Centimeters\n3. Meters to Millimeters\n4. Meters to Feet\n5. Meters to Inches\n6. Exit\n";
 		cout<<"================================\n";
@@ -12,6 +12,12 @@ int main(){
 		double len;
 		double res;
 		switch(i){
+			case 5:
+				cout<<"Enter the length: ";
+				cin>>len;
+				res=len*39.37;
+				cout<<"Result: "<<res;
+				break;
 			case 1 :
 			
 			        cout<<"\nEnter the value:\n";
