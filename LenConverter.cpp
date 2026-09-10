@@ -37,6 +37,13 @@ int main(){
 					res = len * 1000;
 					cout<<"final answer after converting to millimeters = "<<res;
 					break;
+			
+			case 4:
+	                   cout<<"Enter the length(in metres): ";
+	                   cin>>len;
+					   foot= len/30;
+					   cout<<"Length in foot is: "<<foot<<"\n";
+					   break;
 		}
 	}
 
