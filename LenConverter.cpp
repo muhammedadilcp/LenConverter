@@ -9,9 +9,18 @@ int main(){
 		cout<<"================================\n";
 		cout<<"Enter choice: ";
 		cin>>i;
+		double len;
+		double res;
 		switch(i){
+			case 1 :
 			
+			        cout<<"\nEnter the value:\n";
+					cin>>len;
+					res = len/1000.0;
+					cout<<"The converted value is:"<<res;
+					break;
 		}
 	}
+
 	return 0;
 }
