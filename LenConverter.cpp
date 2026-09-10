@@ -12,6 +12,7 @@ int main(){
 		double len;
 		double res;
 		switch(i){
+			
 			case 1 :
 			
 			        cout<<"\nEnter the value:\n";
@@ -19,6 +20,15 @@ int main(){
 					res = len/1000.0;
 					cout<<"The converted value is:"<<res;
 					break;
+			
+			case 2:
+				cout<<"Enter length in meters";
+				cin>>length;
+				
+				result=rlength*100;
+				
+				cout<<"Length in centimeters:"<<result<<endl;
+				break;
 		}
 	}
 
