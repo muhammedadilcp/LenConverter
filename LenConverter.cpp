@@ -22,12 +22,21 @@ int main(){
 			
 			case 2:
 				cout<<"Enter length in meters";
-				cin>>length;
+				cin>>len;
 				
-				result=rlength*100;
+				res=len*100;
 				
-				cout<<"Length in centimeters:"<<result<<endl;
+				cout<<"Length in centimeters:"<<res<<endl;
 				break;
+				
+			case 3:
+					
+					cout<<"give the value to be converted: "<<endl;
+					cin>>len;
+					
+					res = len * 1000;
+					cout<<"final answer after converting to millimeters = "<<res;
+					break;
 		}
 	}
 
