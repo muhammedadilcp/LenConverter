@@ -11,6 +11,15 @@ int main(){
 		cin>>i;
 		switch(i){
 			
+								case 3:
+					
+					cout<<"give the value to be converted: "<<endl;
+					cin>>meter;
+					
+					millimeters = meter * 1000;
+					cout<<"final answer after converting to millimeters = "<<millimeters;
+					break;
+			
 		}
 	}
 	return 0;
